@@ -1,2 +1,2 @@
-NewWorld-exe: *.cpp
-		g++ src/*.cpp -o bin/NewWorld-exe
+NewWorld-exe:
+		g++ src/*.cpp -Iinclude/ -lSDL2 -o bin/NewWorld-exe

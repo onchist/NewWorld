@@ -1,7 +1,8 @@
-#include <iostream>
+#include "Game.h"
 
 int main(void){
-        std::cout << "Here we go again" << std::endl;
+        Game game;
+        game.run();
 
         return 0;
 }
